@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding:utf-8 -*-
+
 print('\\\t\\')
 print(r'\\\t\\')
 
@@ -48,3 +51,17 @@ print(b'abc'.decode('utf-8'))
 print(len('中文'))
 print(len('中文'.encode('utf-8')))
 
+print('%04d-%04d' % (3, 1))
+print('%.3f' % 3.1415926)
+
+print('hi,%s,you have $%06x' %('niehonglin',10000))
+
+print('the growth is %%%d' %20)
+
+s1 = 72
+s2 = 85
+r = (85 - 72)/72
+print('hello,{0},成绩提升了{1:.4f}%'.format('xiaoming',r))
+
+print('中文'.encode('utf-8'))
+print('中文'.encode('gb2312'))
