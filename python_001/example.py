@@ -1,3 +1,4 @@
+from test import my_abs
 print('hello nhl , world')
 print(1+2+3)
 print(2**10)
@@ -47,3 +48,5 @@ dict1[key1] = 99
 print(dict1)
 #print('debug log')
 
+print(my_abs(100))
+print(my_abs(-4-4))
